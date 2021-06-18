@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <atom:link href="https://www.isa-afp.org/rss.xml" rel="self" type="application/rss+xml" />
+    <title>Archive of Formal Proofs</title>
+    <link>https://www.isa-afp.org</link>
+    <description>
+      The Archive of Formal Proofs is a collection of proof libraries, examples,
+      and larger scientific developments, mechanically checked
+      in the theorem prover Isabelle.
+    </description>
+    <pubDate>24 May 2021 00:00:00 +0000</pubDate>
+    <item>
+       <title>Lyndon words</title>
+              <link>https://www.isa-afp.org/entries/Combinatorics_Words_Lyndon.html</link>
+       <guid>https://www.isa-afp.org/entries/Combinatorics_Words_Lyndon.html</guid>
+       <dc:creator> Štěpán Holub, Štěpán Starosta       </dc:creator>
+       <pubDate>24 May 2021 00:00:00 +0000</pubDate>
+       <description>
+Lyndon words are words lexicographically minimal in their conjugacy
+class. We formalize their basic properties and characterizations, in
+particular the concepts of the longest Lyndon suffix and the Lyndon
+factorization. Most of the work assumes a fixed lexicographical order.
+Nevertheless we also define the smallest relation guaranteeing
+lexicographical minimality of a given word (in its conjugacy class).</description>
+    </item>
+    <item>
+       <title>Graph Lemma</title>
+              <link>https://www.isa-afp.org/entries/Combinatorics_Words_Graph_Lemma.html</link>
+       <guid>https://www.isa-afp.org/entries/Combinatorics_Words_Graph_Lemma.html</guid>
+       <dc:creator> Štěpán Holub, Štěpán Starosta       </dc:creator>
+       <pubDate>24 May 2021 00:00:00 +0000</pubDate>
+       <description>
+Graph lemma quantifies the defect effect of a system of word
+equations. That is, it provides an upper bound on the rank of the
+system. We formalize the proof based on the decomposition of a
+solution into its free basis. A direct application is an alternative
+proof of the fact that two noncommuting words form a code.</description>
+    </item>
+    <item>
+       <title>Combinatorics on Words Basics</title>
+              <link>https://www.isa-afp.org/entries/Combinatorics_Words.html</link>
+       <guid>https://www.isa-afp.org/entries/Combinatorics_Words.html</guid>
+       <dc:creator> Štěpán Holub, Martin Raška, Štěpán Starosta       </dc:creator>
+       <pubDate>24 May 2021 00:00:00 +0000</pubDate>
+       <description>
+We formalize basics of Combinatorics on Words. This is an extension of
+existing theories on lists. We provide additional properties related
+to prefix, suffix, factor, length and rotation. The topics include
+prefix and suffix comparability, mismatch, word power, total and
+reversed morphisms, border, periods, primitivity and roots. We also
+formalize basic, mostly folklore results related to word equations:
+equidivisibility, commutation and conjugation. Slightly advanced
+properties include the Periodicity lemma (often cited as the Fine and
+Wilf theorem) and the variant of the Lyndon-Schützenberger theorem for
+words. We support the algebraic point of view which sees words as
+generators of submonoids of a free monoid. This leads to the concepts
+of the (free) hull, the (free) basis (or code).</description>
+    </item>
+    <item>
+       <title>Regression Test Selection</title>
+              <link>https://www.isa-afp.org/entries/Regression_Test_Selection.html</link>
+       <guid>https://www.isa-afp.org/entries/Regression_Test_Selection.html</guid>
+       <dc:creator> Susannah Mansky       </dc:creator>
+       <pubDate>30 Apr 2021 00:00:00 +0000</pubDate>
+       <description>
+This development provides a general definition for safe Regression
+Test Selection (RTS) algorithms. RTS algorithms select which tests to
+rerun on revised code, reducing the time required to check for newly
+introduced errors. An RTS algorithm is considered safe if and only if
+all deselected tests would have unchanged results.  This definition is
+instantiated with two class-collection-based RTS algorithms run over
+the JVM as modeled by JinjaDCI. This is achieved with a general
+definition for Collection Semantics, small-step semantics instrumented
+to collect information during execution. As the RTS definition
+mandates safety, these instantiations include proofs of safety.  This
+work is described in Mansky and Gunter&#39;s LSFA 2020 paper and
+Mansky&#39;s doctoral thesis (UIUC, 2020).</description>
+    </item>
+    <item>
+       <title>Isabelle's Metalogic: Formalization and Proof Checker</title>
+              <link>https://www.isa-afp.org/entries/Metalogic_ProofChecker.html</link>
+       <guid>https://www.isa-afp.org/entries/Metalogic_ProofChecker.html</guid>
+       <dc:creator> Tobias Nipkow, Simon Roßkopf       </dc:creator>
+       <pubDate>27 Apr 2021 00:00:00 +0000</pubDate>
+       <description>
+In this entry we formalize Isabelle&#39;s metalogic in Isabelle/HOL.
+Furthermore, we define a language of proof terms and an executable
+proof checker and prove its soundness wrt. the metalogic.  The
+formalization is intentionally kept close to the Isabelle
+implementation(for example using de Brujin indices) to enable easy
+integration of generated code with the Isabelle system without a
+complicated translation layer.  The formalization is described in our
+&lt;a href=&#34;https://arxiv.org/pdf/2104.12224.pdf&#34;&gt;CADE 28 paper&lt;/a&gt;.</description>
+    </item>
+    <item>
+       <title>Lifting the Exponent</title>
+              <link>https://www.isa-afp.org/entries/Lifting_the_Exponent.html</link>
+       <guid>https://www.isa-afp.org/entries/Lifting_the_Exponent.html</guid>
+       <dc:creator> Jakub Kądziołka       </dc:creator>
+       <pubDate>27 Apr 2021 00:00:00 +0000</pubDate>
+       <description>
+We formalize the &lt;i&gt;Lifting the Exponent Lemma&lt;/i&gt;, which
+shows how to find the largest power of $p$ dividing $a^n \pm b^n$, for
+a prime $p$ and positive integers $a$ and $b$. The proof follows &lt;a
+href=&#34;https://s3.amazonaws.com/aops-cdn.artofproblemsolving.com/resources/articles/lifting-the-exponent.pdf&#34;&gt;Amir Hossein Parvardi&#39;s&lt;/a&gt;.</description>
+    </item>
+    <item>
+       <title>The BKR Decision Procedure for Univariate Real Arithmetic</title>
+              <link>https://www.isa-afp.org/entries/BenOr_Kozen_Reif.html</link>
+       <guid>https://www.isa-afp.org/entries/BenOr_Kozen_Reif.html</guid>
+       <dc:creator> Katherine Cordwell, Yong Kiam Tan, André Platzer       </dc:creator>
+       <pubDate>24 Apr 2021 00:00:00 +0000</pubDate>
+       <description>
+We formalize the univariate case of Ben-Or, Kozen, and Reif&#39;s
+decision procedure for first-order real arithmetic (the BKR
+algorithm). We also formalize the univariate case of Renegar&#39;s
+variation of the BKR algorithm. The two formalizations differ
+mathematically in minor ways (that have significant impact on the
+multivariate case), but are quite similar in proof structure.  Both
+rely on sign-determination (finding the set of consistent sign
+assignments for a set of polynomials).  The method used for
+sign-determination is similar to Tarski&#39;s original quantifier
+elimination algorithm (it stores key information in a matrix
+equation), but with a reduction step to keep complexity low.</description>
+    </item>
+    <item>
+       <title>Gale-Stewart Games</title>
+              <link>https://www.isa-afp.org/entries/GaleStewart_Games.html</link>
+       <guid>https://www.isa-afp.org/entries/GaleStewart_Games.html</guid>
+       <dc:creator> Sebastiaan Joosten       </dc:creator>
+       <pubDate>23 Apr 2021 00:00:00 +0000</pubDate>
+       <description>
+This is a formalisation of the main result of Gale and Stewart from
+1953, showing that closed finite games are determined. This property
+is now known as the Gale Stewart Theorem. While the original paper
+shows some additional theorems as well, we only formalize this main
+result, but do so in a somewhat general way. We formalize games of a
+fixed arbitrary length, including infinite length, using co-inductive
+lists, and show that defensive strategies exist unless the other
+player is winning. For closed games, defensive strategies are winning
+for the closed player, proving that such games are determined. For
+finite games, which are a special case in our formalisation, all games
+are closed.</description>
+    </item>
+    <item>
+       <title>Formalization of Timely Dataflow's Progress Tracking Protocol</title>
+              <link>https://www.isa-afp.org/entries/Progress_Tracking.html</link>
+       <guid>https://www.isa-afp.org/entries/Progress_Tracking.html</guid>
+       <dc:creator> Matthias Brun, Sára Decova, Andrea Lattuada, Dmitriy Traytel       </dc:creator>
+       <pubDate>13 Apr 2021 00:00:00 +0000</pubDate>
+       <description>
+Large-scale stream processing systems often follow the dataflow
+paradigm, which enforces a program structure that exposes a high
+degree of parallelism. The Timely Dataflow distributed system supports
+expressive cyclic dataflows for which it offers low-latency data- and
+pipeline-parallel stream processing. To achieve high expressiveness
+and performance, Timely Dataflow uses an intricate distributed
+protocol for tracking the computation’s progress. We formalize this
+progress tracking protocol and verify its safety. Our formalization is
+described in detail in our forthcoming &lt;a
+href=&#34;https://traytel.bitbucket.io/papers/itp21-progress_tracking/safe.pdf&#34;&gt;ITP&#39;21
+paper&lt;/a&gt;.</description>
+    </item>
+    <item>
+       <title>Information Flow Control via Dependency Tracking</title>
+              <link>https://www.isa-afp.org/entries/IFC_Tracking.html</link>
+       <guid>https://www.isa-afp.org/entries/IFC_Tracking.html</guid>
+       <dc:creator> Benedikt Nordhoff       </dc:creator>
+       <pubDate>01 Apr 2021 00:00:00 +0000</pubDate>
+       <description>
+We provide a characterisation of how information is propagated by
+program executions based on the tracking data and control dependencies
+within executions themselves.  The characterisation might be used for
+deriving approximative safety properties to be targeted by static
+analyses or checked at runtime.  We utilise a simple yet versatile
+control flow graph model as a program representation.  As our model is
+not assumed to be finite it can be instantiated for a broad class of
+programs.  The targeted security property is indistinguishable
+security where executions produce sequences of observations and only
+non-terminating executions are allowed to drop a tail of those.  A
+very crude approximation of our characterisation is slicing based on
+program dependence graphs, which we use as a minimal example and
+derive a corresponding soundness result.  For further details and
+applications refer to the authors upcoming dissertation.</description>
+    </item>
+    <item>
+       <title>Grothendieck's Schemes in Algebraic Geometry</title>
+              <link>https://www.isa-afp.org/entries/Grothendieck_Schemes.html</link>
+       <guid>https://www.isa-afp.org/entries/Grothendieck_Schemes.html</guid>
+       <dc:creator> Anthony Bordg, Lawrence Paulson, Wenda Li       </dc:creator>
+       <pubDate>29 Mar 2021 00:00:00 +0000</pubDate>
+       <description>
+We formalize mainstream structures in algebraic geometry culminating
+in Grothendieck&#39;s schemes: presheaves of rings, sheaves of rings,
+ringed spaces, locally ringed spaces, affine schemes and schemes. We
+prove that the spectrum of a ring is a locally ringed space, hence an
+affine scheme. Finally, we prove that any affine scheme is a scheme.</description>
+    </item>
+    <item>
+       <title>Hensel's Lemma for the p-adic Integers</title>
+              <link>https://www.isa-afp.org/entries/Padic_Ints.html</link>
+       <guid>https://www.isa-afp.org/entries/Padic_Ints.html</guid>
+       <dc:creator> Aaron Crighton       </dc:creator>
+       <pubDate>23 Mar 2021 00:00:00 +0000</pubDate>
+       <description>
+We formalize the ring of &lt;em&gt;p&lt;/em&gt;-adic integers within the framework of the
+HOL-Algebra library. The carrier of the ring is formalized as the
+inverse limit of quotients of the integers by powers of a fixed prime
+&lt;em&gt;p&lt;/em&gt;. We define an integer-valued valuation, as well as an
+extended-integer valued valuation which sends 0 to the infinite
+element. Basic topological facts about the &lt;em&gt;p&lt;/em&gt;-adic integers are
+formalized, including completeness and sequential compactness. Taylor
+expansions of polynomials over a commutative ring are defined,
+culminating in the formalization of Hensel&#39;s Lemma based on a
+proof due to Keith Conrad.</description>
+    </item>
+    <item>
+       <title>Constructive Cryptography in HOL: the Communication Modeling Aspect</title>
+              <link>https://www.isa-afp.org/entries/Constructive_Cryptography_CM.html</link>
+       <guid>https://www.isa-afp.org/entries/Constructive_Cryptography_CM.html</guid>
+       <dc:creator> Andreas Lochbihler, S. Reza Sefidgar       </dc:creator>
+       <pubDate>17 Mar 2021 00:00:00 +0000</pubDate>
+       <description>
+Constructive Cryptography (CC) [&lt;a
+href=&#34;https://conference.iiis.tsinghua.edu.cn/ICS2011/content/papers/14.html&#34;&gt;ICS
+2011&lt;/a&gt;, &lt;a
+href=&#34;https://doi.org/10.1007/978-3-642-27375-9_3&#34;&gt;TOSCA
+2011&lt;/a&gt;, &lt;a
+href=&#34;https://doi.org/10.1007/978-3-662-53641-4_1&#34;&gt;TCC
+2016&lt;/a&gt;] introduces an abstract approach to composable security
+statements that allows one to focus on a particular aspect of security
+proofs at a time. Instead of proving the properties of concrete
+systems, CC studies system classes, i.e., the shared behavior of
+similar systems, and their transformations.  Modeling of systems
+communication plays a crucial role in composability and reusability of
+security statements; yet, this aspect has not been studied in any of
+the existing CC results. We extend our previous CC formalization
+[&lt;a href=&#34;https://isa-afp.org/entries/Constructive_Cryptography.html&#34;&gt;Constructive_Cryptography&lt;/a&gt;,
+&lt;a href=&#34;https://doi.org/10.1109/CSF.2019.00018&#34;&gt;CSF
+2019&lt;/a&gt;] with a new semantic domain called Fused Resource
+Templates (FRT) that abstracts over the systems communication patterns
+in CC proofs. This widens the scope of cryptography proof
+formalizations in the CryptHOL library [&lt;a
+href=&#34;https://isa-afp.org/entries/CryptHOL.html&#34;&gt;CryptHOL&lt;/a&gt;,
+&lt;a
+href=&#34;https://doi.org/10.1007/978-3-662-49498-1_20&#34;&gt;ESOP
+2016&lt;/a&gt;, &lt;a
+href=&#34;https://doi.org/10.1007/s00145-019-09341-z&#34;&gt;J
+Cryptol 2020&lt;/a&gt;].  This formalization is described in &lt;a
+href=&#34;http://www.andreas-lochbihler.de/pub/basin2021.pdf&#34;&gt;Abstract
+Modeling of Systems Communication in Constructive Cryptography using
+CryptHOL&lt;/a&gt;.</description>
+    </item>
+    <item>
+       <title>Two algorithms based on modular arithmetic: lattice basis reduction and Hermite normal form computation</title>
+              <link>https://www.isa-afp.org/entries/Modular_arithmetic_LLL_and_HNF_algorithms.html</link>
+       <guid>https://www.isa-afp.org/entries/Modular_arithmetic_LLL_and_HNF_algorithms.html</guid>
+       <dc:creator> Ralph Bottesch, Jose Divasón, René Thiemann       </dc:creator>
+       <pubDate>12 Mar 2021 00:00:00 +0000</pubDate>
+       <description>
+We verify two algorithms for which modular arithmetic plays an
+essential role: Storjohann&#39;s variant of the LLL lattice basis
+reduction algorithm and Kopparty&#39;s algorithm for computing the
+Hermite normal form of a matrix. To do this, we also formalize some
+facts about the modulo operation with symmetric range. Our
+implementations are based on the original papers, but are otherwise
+efficient. For basis reduction we formalize two versions: one that
+includes all of the optimizations/heuristics from Storjohann&#39;s
+paper, and one excluding a heuristic that we observed to often
+decrease efficiency. We also provide a fast, self-contained certifier
+for basis reduction, based on the efficient Hermite normal form
+algorithm.</description>
+    </item>
+    <item>
+       <title>Quantum projective measurements and the CHSH inequality</title>
+              <link>https://www.isa-afp.org/entries/Projective_Measurements.html</link>
+       <guid>https://www.isa-afp.org/entries/Projective_Measurements.html</guid>
+       <dc:creator> Mnacho Echenim       </dc:creator>
+       <pubDate>03 Mar 2021 00:00:00 +0000</pubDate>
+       <description>
+This work contains a formalization of quantum projective measurements,
+also known as von Neumann measurements, which are based on elements of
+spectral theory. We also formalized the CHSH inequality, an inequality
+involving expectations in a probability space that is violated by
+quantum measurements, thus proving that quantum mechanics cannot be modeled with an underlying local hidden-variable theory.</description>
+    </item>
+    <item>
+       <title>The Hermite–Lindemann–Weierstraß Transcendence Theorem</title>
+              <link>https://www.isa-afp.org/entries/Hermite_Lindemann.html</link>
+       <guid>https://www.isa-afp.org/entries/Hermite_Lindemann.html</guid>
+       <dc:creator> Manuel Eberl       </dc:creator>
+       <pubDate>03 Mar 2021 00:00:00 +0000</pubDate>
+       <description>
+&lt;p&gt;This article provides a formalisation of the
+Hermite-Lindemann-Weierstraß Theorem (also known as simply
+Hermite-Lindemann or Lindemann-Weierstraß). This theorem is one of the
+crowning achievements of 19th century number theory.&lt;/p&gt;
+&lt;p&gt;The theorem states that if $\alpha_1, \ldots,
+\alpha_n\in\mathbb{C}$ are algebraic numbers that are linearly
+independent over $\mathbb{Z}$, then $e^{\alpha_1},\ldots,e^{\alpha_n}$
+are algebraically independent over $\mathbb{Q}$.&lt;/p&gt;
+&lt;p&gt;Like the &lt;a
+href=&#34;https://doi.org/10.1007/978-3-319-66107-0_5&#34;&gt;previous
+formalisation in Coq by Bernard&lt;/a&gt;, I proceeded by formalising
+&lt;a
+href=&#34;https://doi.org/10.1017/CBO9780511565977&#34;&gt;Baker&#39;s
+version of the theorem and proof&lt;/a&gt; and then deriving the
+original one from that. Baker&#39;s version states that for any
+algebraic numbers $\beta_1, \ldots, \beta_n\in\mathbb{C}$ and distinct
+algebraic numbers $\alpha_i, \ldots, \alpha_n\in\mathbb{C}$, we have
+$\beta_1 e^{\alpha_1} + \ldots + \beta_n e^{\alpha_n} = 0$ if and only
+if all the $\beta_i$ are zero.&lt;/p&gt; &lt;p&gt;This has a number of
+direct corollaries, e.g.:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;$e$ and $\pi$
+are transcendental&lt;/li&gt; &lt;li&gt;$e^z$, $\sin z$, $\tan z$,
+etc. are transcendental for algebraic
+$z\in\mathbb{C}\setminus\{0\}$&lt;/li&gt; &lt;li&gt;$\ln z$ is
+transcendental for algebraic $z\in\mathbb{C}\setminus\{0,
+1\}$&lt;/li&gt; &lt;/ul&gt;</description>
+    </item>
+    <item>
+       <title>Mereology</title>
+              <link>https://www.isa-afp.org/entries/Mereology.html</link>
+       <guid>https://www.isa-afp.org/entries/Mereology.html</guid>
+       <dc:creator> Ben Blumson       </dc:creator>
+       <pubDate>01 Mar 2021 00:00:00 +0000</pubDate>
+       <description>
+We use Isabelle/HOL to verify elementary theorems and alternative
+axiomatizations of classical extensional mereology.</description>
+    </item>
+    <item>
+       <title>The Sunflower Lemma of Erdős and Rado</title>
+              <link>https://www.isa-afp.org/entries/Sunflowers.html</link>
+       <guid>https://www.isa-afp.org/entries/Sunflowers.html</guid>
+       <dc:creator> René Thiemann       </dc:creator>
+       <pubDate>25 Feb 2021 00:00:00 +0000</pubDate>
+       <description>
+We formally define sunflowers and provide a formalization of the
+sunflower lemma of Erd&amp;odblac;s and Rado: whenever a set of
+size-&lt;i&gt;k&lt;/i&gt;-sets has a larger cardinality than
+&lt;i&gt;(r - 1)&lt;sup&gt;k&lt;/sup&gt; &amp;middot; k!&lt;/i&gt;,
+then it contains a sunflower of cardinality &lt;i&gt;r&lt;/i&gt;.</description>
+    </item>
+    <item>
+       <title>A Verified Imperative Implementation of B-Trees</title>
+              <link>https://www.isa-afp.org/entries/BTree.html</link>
+       <guid>https://www.isa-afp.org/entries/BTree.html</guid>
+       <dc:creator> Niels Mündler       </dc:creator>
+       <pubDate>24 Feb 2021 00:00:00 +0000</pubDate>
+       <description>
+In this work, we use the interactive theorem prover Isabelle/HOL to
+verify an imperative implementation of the classical B-tree data
+structure invented by Bayer and McCreight [ACM 1970]. The
+implementation supports set membership, insertion and deletion queries with
+efficient binary search for intra-node navigation. This is
+accomplished by first specifying the structure abstractly in the
+functional modeling language HOL and proving functional correctness.
+Using manual refinement, we derive an imperative implementation in
+Imperative/HOL. We show the validity of this refinement using the
+separation logic utilities from the &lt;a
+href=&#34;https://www.isa-afp.org/entries/Refine_Imperative_HOL.html&#34;&gt;
+Isabelle Refinement Framework &lt;/a&gt; . The code can be exported to
+the programming languages SML, OCaml and Scala. We examine the runtime of all
+operations indirectly by reproducing results of the logarithmic
+relationship between height and the number of nodes.  The results are
+discussed in greater detail in the corresponding &lt;a
+href=&#34;https://mediatum.ub.tum.de/1596550&#34;&gt;Bachelor&#39;s
+Thesis&lt;/a&gt;.</description>
+    </item>
+    <item>
+       <title>Formal Puiseux Series</title>
+              <link>https://www.isa-afp.org/entries/Formal_Puiseux_Series.html</link>
+       <guid>https://www.isa-afp.org/entries/Formal_Puiseux_Series.html</guid>
+       <dc:creator> Manuel Eberl       </dc:creator>
+       <pubDate>17 Feb 2021 00:00:00 +0000</pubDate>
+       <description>
+&lt;p&gt;Formal Puiseux series are generalisations of formal power
+series and formal Laurent series that also allow for fractional
+exponents. They have the following general form: \[\sum_{i=N}^\infty
+a_{i/d} X^{i/d}\] where &lt;em&gt;N&lt;/em&gt; is an integer and
+&lt;em&gt;d&lt;/em&gt; is a positive integer.&lt;/p&gt; &lt;p&gt;This
+entry defines these series including their basic algebraic properties.
+Furthermore, it proves the Newton–Puiseux Theorem, namely that the
+Puiseux series over an algebraically closed field of characteristic 0
+are also algebraically closed.&lt;/p&gt;</description>
+    </item>
+    <item>
+       <title>The Laws of Large Numbers</title>
+              <link>https://www.isa-afp.org/entries/Laws_of_Large_Numbers.html</link>
+       <guid>https://www.isa-afp.org/entries/Laws_of_Large_Numbers.html</guid>
+       <dc:creator> Manuel Eberl       </dc:creator>
+       <pubDate>10 Feb 2021 00:00:00 +0000</pubDate>
+       <description>
+&lt;p&gt;The Law of Large Numbers states that, informally, if one
+performs a random experiment $X$ many times and takes the average of
+the results, that average will be very close to the expected value
+$E[X]$.&lt;/p&gt; &lt;p&gt; More formally, let
+$(X_i)_{i\in\mathbb{N}}$ be a sequence of independently identically
+distributed random variables whose expected value $E[X_1]$ exists.
+Denote the running average of $X_1, \ldots, X_n$ as $\overline{X}_n$.
+Then:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;The Weak Law of Large Numbers
+states that $\overline{X}_{n} \longrightarrow E[X_1]$ in probability
+for $n\to\infty$, i.e. $\mathcal{P}(|\overline{X}_{n} - E[X_1]| &gt;
+\varepsilon) \longrightarrow 0$ as $n\to\infty$ for any $\varepsilon
+&gt; 0$.&lt;/li&gt; &lt;li&gt;The Strong Law of Large Numbers states
+that $\overline{X}_{n} \longrightarrow E[X_1]$ almost surely for
+$n\to\infty$, i.e. $\mathcal{P}(\overline{X}_{n} \longrightarrow
+E[X_1]) = 1$.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;In this entry, I
+formally prove the strong law and from it the weak law. The approach
+used for the proof of the strong law is a particularly quick and slick
+one based on ergodic theory, which was formalised by Gouëzel in
+another AFP entry.&lt;/p&gt;</description>
+    </item>
+    <item>
+       <title>Tarski's Parallel Postulate implies the 5th Postulate of Euclid, the Postulate of Playfair and the original Parallel Postulate of Euclid</title>
+              <link>https://www.isa-afp.org/entries/IsaGeoCoq.html</link>
+       <guid>https://www.isa-afp.org/entries/IsaGeoCoq.html</guid>
+       <dc:creator> Roland Coghetto       </dc:creator>
+       <pubDate>31 Jan 2021 00:00:00 +0000</pubDate>
+       <description>
+&lt;p&gt;The &lt;a href=&#34;https://geocoq.github.io/GeoCoq/&#34;&gt;GeoCoq library&lt;/a&gt;  contains a formalization
+of geometry using the Coq proof assistant. It contains both proofs
+about the foundations of geometry and high-level proofs in the same
+style as in high school.  We port a part of the GeoCoq
+2.4.0 library to Isabelle/HOL: more precisely,
+the files Chap02.v to Chap13_3.v, suma.v as well as the associated
+definitions and some useful files for the demonstration of certain
+parallel postulates. The synthetic approach of the demonstrations is directly
+inspired by those contained in GeoCoq. The names of the lemmas and
+theorems used are kept as far as possible as well as the definitions.
+&lt;/p&gt;
+&lt;p&gt;It should be noted that T.J.M. Makarios has done
+&lt;a href=&#34;https://www.isa-afp.org/entries/Tarskis_Geometry.html&#34;&gt;some proofs in Tarski&#39;s Geometry&lt;/a&gt;. It uses a definition that does not quite
+coincide with the definition used in Geocoq and here.
+Furthermore, corresponding definitions in the &lt;a href=&#34;https://www.isa-afp.org/entries/Poincare_Disc.html&#34;&gt;Poincaré Disc Model
+development&lt;/a&gt; are not identical to those defined in GeoCoq.
+&lt;/p&gt;
+&lt;p&gt;In the last part, it is
+formalized that, in the neutral/absolute space, the axiom of the
+parallels of Tarski&#39;s system implies the Playfair axiom, the 5th
+postulate of Euclid and Euclid&#39;s original parallel postulate. These
+proofs, which are not constructive, are directly inspired by Pierre
+Boutry, Charly Gries, Julien Narboux and Pascal Schreck.
+&lt;/p&gt;</description>
+    </item>
+    <item>
+       <title>Solution to the xkcd Blue Eyes puzzle</title>
+              <link>https://www.isa-afp.org/entries/Blue_Eyes.html</link>
+       <guid>https://www.isa-afp.org/entries/Blue_Eyes.html</guid>
+       <dc:creator> Jakub Kądziołka       </dc:creator>
+       <pubDate>30 Jan 2021 00:00:00 +0000</pubDate>
+       <description>
+In a &lt;a href=&#34;https://xkcd.com/blue_eyes.html&#34;&gt;puzzle published by
+Randall Munroe&lt;/a&gt;, perfect logicians forbidden
+from communicating are stranded on an island, and may only leave once
+they have figured out their own eye color. We present a method of
+modeling the behavior of perfect logicians and formalize a solution of
+the puzzle.</description>
+    </item>
+    <item>
+       <title>Hood-Melville Queue</title>
+              <link>https://www.isa-afp.org/entries/Hood_Melville_Queue.html</link>
+       <guid>https://www.isa-afp.org/entries/Hood_Melville_Queue.html</guid>
+       <dc:creator> Alejandro Gómez-Londoño       </dc:creator>
+       <pubDate>18 Jan 2021 00:00:00 +0000</pubDate>
+       <description>
+This is a verified implementation of a constant time queue. The
+original design is due to &lt;a
+href=&#34;https://doi.org/10.1016/0020-0190(81)90030-2&#34;&gt;Hood
+and Melville&lt;/a&gt;. This formalization follows the presentation in
+&lt;em&gt;Purely Functional Data Structures&lt;/em&gt;by Okasaki.</description>
+    </item>
+    <item>
+       <title>JinjaDCI: a Java semantics with dynamic class initialization</title>
+              <link>https://www.isa-afp.org/entries/JinjaDCI.html</link>
+       <guid>https://www.isa-afp.org/entries/JinjaDCI.html</guid>
+       <dc:creator> Susannah Mansky       </dc:creator>
+       <pubDate>11 Jan 2021 00:00:00 +0000</pubDate>
+       <description>
+We extend Jinja to include static fields, methods, and instructions,
+and dynamic class initialization, based on the Java SE 8
+specification. This includes extension of definitions and proofs. This
+work is partially described in Mansky and Gunter&#39;s paper at CPP
+2019 and Mansky&#39;s doctoral thesis (UIUC, 2020).</description>
+    </item>
+    <item>
+       <title>Cofinality and the Delta System Lemma</title>
+              <link>https://www.isa-afp.org/entries/Delta_System_Lemma.html</link>
+       <guid>https://www.isa-afp.org/entries/Delta_System_Lemma.html</guid>
+       <dc:creator> Pedro Sánchez Terraf       </dc:creator>
+       <pubDate>27 Dec 2020 00:00:00 +0000</pubDate>
+       <description>
+We formalize the basic results on cofinality of linearly ordered sets
+and ordinals and Šanin’s Lemma for uncountable families of finite
+sets. This last result is used to prove the countable chain condition
+for Cohen posets. We work in the set theory framework of Isabelle/ZF,
+using the Axiom of Choice as needed.</description>
+    </item>
+    <item>
+       <title>Topological semantics for paraconsistent and paracomplete logics</title>
+              <link>https://www.isa-afp.org/entries/Topological_Semantics.html</link>
+       <guid>https://www.isa-afp.org/entries/Topological_Semantics.html</guid>
+       <dc:creator> David Fuenmayor       </dc:creator>
+       <pubDate>17 Dec 2020 00:00:00 +0000</pubDate>
+       <description>
+We introduce a generalized topological semantics for paraconsistent
+and paracomplete logics by drawing upon early works on topological
+Boolean algebras (cf. works by Kuratowski, Zarycki, McKinsey &amp;
+Tarski, etc.). In particular, this work exemplarily illustrates the
+shallow semantical embeddings approach (&lt;a
+href=&#34;http://dx.doi.org/10.1007/s11787-012-0052-y&#34;&gt;SSE&lt;/a&gt;)
+employing the proof assistant Isabelle/HOL. By means of the SSE
+technique we can effectively harness theorem provers, model finders
+and &#39;hammers&#39; for reasoning with quantified non-classical
+logics.</description>
+    </item>
+    <item>
+       <title>Relational Minimum Spanning Tree Algorithms</title>
+              <link>https://www.isa-afp.org/entries/Relational_Minimum_Spanning_Trees.html</link>
+       <guid>https://www.isa-afp.org/entries/Relational_Minimum_Spanning_Trees.html</guid>
+       <dc:creator> Walter Guttmann, Nicolas Robinson-O'Brien       </dc:creator>
+       <pubDate>08 Dec 2020 00:00:00 +0000</pubDate>
+       <description>
+We verify the correctness of Prim&#39;s, Kruskal&#39;s and
+Borůvka&#39;s minimum spanning tree algorithms based on algebras for
+aggregation and minimisation.</description>
+    </item>
+    <item>
+       <title>Inline Caching and Unboxing Optimization for Interpreters</title>
+              <link>https://www.isa-afp.org/entries/Interpreter_Optimizations.html</link>
+       <guid>https://www.isa-afp.org/entries/Interpreter_Optimizations.html</guid>
+       <dc:creator> Martin Desharnais       </dc:creator>
+       <pubDate>07 Dec 2020 00:00:00 +0000</pubDate>
+       <description>
+This Isabelle/HOL formalization builds on the
+&lt;em&gt;VeriComp&lt;/em&gt; entry of the &lt;em&gt;Archive of Formal
+Proofs&lt;/em&gt; to provide the following contributions:  &lt;ul&gt;
+&lt;li&gt;an operational semantics for a realistic virtual machine
+(Std) for dynamically typed programming languages;&lt;/li&gt;
+&lt;li&gt;the formalization of an inline caching optimization (Inca),
+a proof of bisimulation with (Std), and a compilation
+function;&lt;/li&gt; &lt;li&gt;the formalization of an unboxing
+optimization (Ubx), a proof of bisimulation with (Inca), and a simple
+compilation function.&lt;/li&gt; &lt;/ul&gt;  This formalization was
+described in the CPP 2021 paper &lt;em&gt;Towards Efficient and
+Verified Virtual Machines for Dynamic Languages&lt;/em&gt;</description>
+    </item>
+    <item>
+       <title>The Relational Method with Message Anonymity for the Verification of Cryptographic Protocols</title>
+              <link>https://www.isa-afp.org/entries/Relational_Method.html</link>
+       <guid>https://www.isa-afp.org/entries/Relational_Method.html</guid>
+       <dc:creator> Pasquale Noce       </dc:creator>
+       <pubDate>05 Dec 2020 00:00:00 +0000</pubDate>
+       <description>
+This paper introduces a new method for the formal verification of
+cryptographic protocols, the relational method, derived from
+Paulson&#39;s inductive method by means of some enhancements aimed at
+streamlining formal definitions and proofs, specially for protocols
+using public key cryptography. Moreover, this paper proposes a method
+to formalize a further security property, message anonymity, in
+addition to message confidentiality and authenticity.  The relational
+method, including message anonymity, is then applied to the
+verification of a sample authentication protocol, comprising Password
+Authenticated Connection Establishment (PACE) with Chip Authentication
+Mapping followed by the explicit verification of an additional
+password over the PACE secure channel.</description>
+    </item>
+  </channel>
+</rss>
